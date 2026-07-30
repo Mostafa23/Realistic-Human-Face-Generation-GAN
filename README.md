@@ -84,7 +84,7 @@ GAN_Face_Generation_Benchmark/
 
 You can view, run, or directly download the pre-trained model weights (`netG_WGANGP_final.pth`, `netG_DCGAN_final.pth`), generated datasets, and checkpoint files from my published **Kaggle Notebook**:
 
-👉 **[Realistic Human Face Generation GAN on Kaggle](https://www.kaggle.com/code/mostafa201714/notebookadbcf19c02)**
+👉 **[Realistic Human Face Generation GAN on Kaggle](https://www.kaggle.com/code/mostafa201714/realistic-human-face-generation-gan)**
 
 - To download the pre-trained weights and data without retraining from scratch, open the link above, go to the **Output Sidebar (`/kaggle/working/`)**, and download the generated `.zip` archive or `.pth` model files.
 

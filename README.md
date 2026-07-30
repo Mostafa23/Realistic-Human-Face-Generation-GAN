@@ -1,7 +1,7 @@
 # Realistic Human Face Generation using GANs (DCGAN vs. WGAN-GP)
 
 <p align="center">
-  <img src="results/images/banner_overview.png" alt="GAN Face Generation Overview Banner" width="850">
+  <img src="assets/banner.png" alt="GAN Face Generation Overview Banner" width="900">
 </p>
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)

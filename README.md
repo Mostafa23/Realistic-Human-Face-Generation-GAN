@@ -6,6 +6,7 @@
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Kaggle](https://img.shields.io/badge/Kaggle-T4_GPU-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/)
+[![Kaggle Notebook](https://img.shields.io/badge/Kaggle_Notebook-Open_Run-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/code/mostafa201714/notebookadbcf19c02)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 ## 📌 Project Overview
@@ -79,12 +80,22 @@ GAN_Face_Generation_Benchmark/
 
 ---
 
+## 📥 Pre-trained Models & Kaggle Notebook (Download Weights & Data)
+
+You can view, run, or directly download the pre-trained model weights (`netG_WGANGP_final.pth`, `netG_DCGAN_final.pth`), generated datasets, and checkpoint files from my published **Kaggle Notebook**:
+
+👉 **[Realistic Human Face Generation GAN on Kaggle](https://www.kaggle.com/code/mostafa201714/notebookadbcf19c02)**
+
+- To download the pre-trained weights and data without retraining from scratch, open the link above, go to the **Output Sidebar (`/kaggle/working/`)**, and download the generated `.zip` archive or `.pth` model files.
+
+---
+
 ## 🚀 How to Run the Code
 
 ### 1. Install Dependencies
 ```bash
-git clone https://github.com/<your-username>/GAN_Face_Generation_Benchmark.git
-cd GAN_Face_Generation_Benchmark
+git clone https://github.com/Mostafa23/Realistic-Human-Face-Generation-GAN.git
+cd Realistic-Human-Face-Generation-GAN
 pip install -r requirements.txt
 ```
 

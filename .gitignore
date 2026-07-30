@@ -1,0 +1,42 @@
+# PyTorch Model Weights & Checkpoints
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+results/checkpoints/
+
+# Generated Image Datasets & Output Sample Images
+*.jpg
+*.jpeg
+*.png
+*.zip
+*.tar
+*.tar.gz
+*.rar
+data/
+sample_faces/
+results/images/
+results/diagrams/
+
+# Allow gitkeep files in results/
+!results/**/.gitkeep
+
+# Python / Jupyter Cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

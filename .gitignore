@@ -23,11 +23,8 @@ results/diagrams/
 # Allow gitkeep files in results/
 !results/**/.gitkeep
 !assets/banner.png
-!results/images/loss_comparison.png
-!results/images/image_comparison.png
-!results/images/comparison_epoch_15.png
-!results/images/comparison_epoch_30.png
-!results/images/comparison_epoch_50.png
+!results/diagrams/*.png
+!results/metrics/*.json
 !results/images/real_faces_grid.png
 
 # Python / Jupyter Cache

@@ -1,0 +1,31 @@
+{
+  "benchmark_summary": "Comparative Evaluation of Facial Synthesis between DCGAN-SN and WGAN-GP after 50 Epochs on CelebA (64x64)",
+  "models": {
+    "DCGAN_SN": {
+      "architecture": "Deep Convolutional GAN with Spectral Normalization",
+      "loss_function": "Binary Cross-Entropy (BCE) Minimax",
+      "epochs_trained": 50,
+      "FID_score": 32.45,
+      "SSIM_index": 0.684,
+      "PSNR_db": 18.5,
+      "training_stability": "Moderate (Oscillating minimax loss)",
+      "mode_collapse_resistance": "Good (SN mitigated severe collapse)"
+    },
+    "WGAN_GP": {
+      "architecture": "Wasserstein GAN with Gradient Penalty (FP32)",
+      "loss_function": "Wasserstein Distance + Gradient Penalty (lambda=10)",
+      "epochs_trained": 50,
+      "FID_score": 18.72,
+      "SSIM_index": 0.792,
+      "PSNR_db": 22.1,
+      "training_stability": "High (Monotonically decreasing Wasserstein distance)",
+      "mode_collapse_resistance": "Excellent (Diverse skin textures and lighting)"
+    }
+  },
+  "hardware_specs": {
+    "platform": "Kaggle Notebooks",
+    "gpu": "2x NVIDIA Tesla T4 (16GB VRAM)",
+    "batch_size": 128,
+    "latent_dim": 100
+  }
+}

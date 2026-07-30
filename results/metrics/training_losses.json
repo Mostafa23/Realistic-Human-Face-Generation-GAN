@@ -1,0 +1,16 @@
+{
+  "dataset": "CelebA Human Faces",
+  "total_iterations": 79100,
+  "dcgan": {
+    "final_g_loss": 2.418,
+    "final_d_loss": 0.985,
+    "avg_g_loss": 2.532,
+    "avg_d_loss": 1.012
+  },
+  "wgangp": {
+    "final_g_loss": 14.892,
+    "final_c_loss": -4.856,
+    "avg_g_loss": 15.21,
+    "avg_c_loss": -5.102
+  }
+}

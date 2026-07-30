@@ -22,6 +22,7 @@ results/diagrams/
 
 # Allow gitkeep files in results/
 !results/**/.gitkeep
+!results/images/banner_overview.png
 
 # Python / Jupyter Cache
 __pycache__/
@@ -32,6 +33,7 @@ __pycache__/
 dist/
 build/
 .pytest_cache/
+scripts/
 
 # OS / Editor Files
 .DS_Store

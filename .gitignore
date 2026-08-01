@@ -23,6 +23,7 @@ results/diagrams/
 # Allow gitkeep files in results/
 !results/**/.gitkeep
 !assets/banner.png
+!assets/training_evolution.gif
 !results/diagrams/*.png
 !results/metrics/*.json
 !results/images/real_faces_grid.png

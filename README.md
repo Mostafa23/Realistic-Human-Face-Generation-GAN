@@ -93,7 +93,14 @@ Below is the side-by-side progression comparing how facial structures, skin text
   <img src="results/diagrams/comparison_epoch_50.png" alt="DCGAN vs WGAN-GP Epoch 50" width="800">
 </p>
 
-### 4. Quantitative Quality Benchmark (FID, SSIM, and PSNR)
+### 4. Animated Training Evolution (Epochs 1 to 50)
+Below is an animated progression showing how synthetic faces evolve dynamically from random Gaussian noise in early epochs to detailed, high-fidelity human faces by Epoch 50:
+
+<p align="center">
+  <img src="assets/training_evolution.gif" alt="DCGAN vs WGAN-GP Animated Training Evolution" width="850">
+</p>
+
+### 5. Quantitative Quality Benchmark (FID, SSIM, and PSNR)
 In addition to qualitative visual evaluation, I recorded industry-standard image quality metrics. **WGAN-GP** significantly outperformed DCGAN across all metrics:
 - **Fréchet Inception Distance (FID)**: **18.72** (vs. 32.45 for DCGAN — *lower is better*)
 - **Structural Similarity Index (SSIM)**: **0.792** (vs. 0.684 for DCGAN — *higher is better*)
